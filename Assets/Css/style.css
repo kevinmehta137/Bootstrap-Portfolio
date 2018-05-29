@@ -1,0 +1,99 @@
+.fa {
+    padding: 4px;
+    font-size: 30px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .social
+  {
+    background-color: rgb(65, 64, 64);
+    margin-top: 34px;
+  }
+  ul.gallery{    
+    margin-left: 3vw;     
+    margin-right:3vw;  
+    }    
+    
+    .zoom {      
+    -webkit-transition: all 0.35s ease-in-out;    
+    -moz-transition: all 0.35s ease-in-out;    
+    transition: all 0.35s ease-in-out;     
+    cursor: -webkit-zoom-in;      
+    cursor: -moz-zoom-in;      
+    cursor: zoom-in;  
+    }     
+    
+    .zoom:hover,  
+    .zoom:active,   
+    .zoom:focus {
+    /**adjust scale to desired size, 
+    add browser prefixes**/
+    -ms-transform: scale(2.5);    
+    -moz-transform: scale(2.5);  
+    -webkit-transform: scale(2.5);  
+    -o-transform: scale(2.5);  
+    transform: scale(1.5);    
+    position:relative;      
+    z-index:100;  
+    }
+    
+    /**To keep upscaled images visible on mobile, 
+    increase left & right margins a bit**/  
+    @media only screen and (max-width: 768px) {   
+    ul.gallery {      
+    margin-left: 15vw;       
+    margin-right: 15vw;
+    }
+    
+    /**TIP: Easy escape for touch screens,
+    give gallery's parent container a cursor: pointer.**/
+    .DivName {cursor: pointer}
+    }
+    .Al
+    {
+        margin-left: 37%;
+        margin-right: 32%;
+    }
+    .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+     }
+     .footer1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+     }
