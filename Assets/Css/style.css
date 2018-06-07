@@ -97,3 +97,13 @@
         color: white;
         text-align: center;
      }
+
+.carousel-inner .item img {
+  max-width: 1020px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner .item img {
+    max-width: 500px;
+  }
+}
